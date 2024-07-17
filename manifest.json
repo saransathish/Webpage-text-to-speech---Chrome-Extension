@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Read the webpage content",
+  "version": "1.5",
+  "description": "Reads the text on the webpage aloud to make users read and understand content more efficiently",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "512": "icons/texttospeech.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
